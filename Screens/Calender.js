@@ -59,7 +59,7 @@ const CalendarComponent = () => {
         style={styles.calendar}
       />
 
-      <Modal visible={isModalVisible} animationType="slide">
+      <Modal visible={isModalVisible} animationType="fade">
         <View style={styles.modalContainer}>
           <Text style={styles.modalDate}>{selectedDate}</Text>
           <TextInput
@@ -115,7 +115,7 @@ const CalendarComponent = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#f5f2f2',
+    backgroundColor: '#e6c79e',
     borderRadius: 10,
   },
   calendar: {
@@ -146,10 +146,10 @@ const styles = StyleSheet.create({
     width: '100%',
   },
   addButton: {
-    backgroundColor: 'green',
+    backgroundColor: '#1e96fc',
   },
   deleteButton: {
-    backgroundColor: '#ed5151',
+    backgroundColor: '#e02d3f',
     padding: 8,
     borderRadius: 100,
   },

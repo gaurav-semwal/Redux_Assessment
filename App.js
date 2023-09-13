@@ -9,7 +9,7 @@ const App = () => {
   return (
     <NavigationContainer>
       <Provider store={store}>
-        <Calender />
+        <Tab />
       </Provider>
     </NavigationContainer>
   );
