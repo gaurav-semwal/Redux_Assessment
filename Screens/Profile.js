@@ -1,3 +1,4 @@
+/* eslint-disable react-native/no-inline-styles */
 import React, {useEffect} from 'react';
 import {View, Image, StyleSheet, ScrollView, SafeAreaView} from 'react-native';
 import {useDispatch, useSelector} from 'react-redux';
@@ -97,9 +98,11 @@ const styles = StyleSheet.create({
   },
   card: {
     margin: 15,
+    fontFamily: 'Sunday Mango',
   },
   text: {
     fontSize: 16,
+    fontFamily: 'Saturday',
   },
 });
 

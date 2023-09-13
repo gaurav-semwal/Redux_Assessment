@@ -3,12 +3,13 @@ import {Provider} from 'react-redux';
 import store from './Redux/Store';
 import Tab from './Navigation/Tab';
 import {NavigationContainer} from '@react-navigation/native';
+import Calender from './Screens/Calender';
 
 const App = () => {
   return (
     <NavigationContainer>
       <Provider store={store}>
-        <Tab />
+        <Calender />
       </Provider>
     </NavigationContainer>
   );
